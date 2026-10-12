@@ -1,0 +1,13 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = Ext4Dxe
+  FILE_GUID                      = 75F2B676-D73B-45CB-B7C1-303C7F4E6FD6
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = Ext4EntryPoint
+
+[Binaries.AARCH64]
+  PE32|Ext4Dxe.efi|*
+
+[Depex]
+  TRUE
